@@ -1,175 +1,440 @@
-[00:02:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[00:02:17] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[00:02:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[00:02:17] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[00:02:17] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_351, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_351
-[00:02:17] [main/WARN] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
-[00:02:17] [main/WARN] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
-[00:02:17] [main/WARN] [FML]: The coremod CatCorePlugin (catserver.server.CatCorePlugin) is not signed!
-[00:02:17] [main/INFO] [FML]: Searching C:\Users\이채은\Documents\GIT\minecraft\.\mods for mods
-[00:02:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[00:02:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[00:02:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[00:02:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[00:02:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[00:02:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[00:02:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[00:02:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[00:02:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[00:02:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[00:02:19] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[00:02:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[00:02:21] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[00:02:21] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[00:02:21] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[00:02:21] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[00:02:22] [Server thread/INFO] [FML]: Config directory created successfully
-[00:02:22] [Server thread/INFO] [FML]: Searching C:\Users\이채은\Documents\GIT\minecraft\.\mods for mods
-[00:02:22] [Server thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
-[00:02:22] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[00:02:22] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at CLIENT
-[00:02:22] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at SERVER
-[00:02:22] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[00:02:22] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[00:02:22] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[00:02:22] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[00:02:22] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[00:02:22] [Server thread/INFO] [FML]: Applying holder lookups
-[00:02:22] [Server thread/INFO] [FML]: Holder lookups applied
-[00:02:22] [Server thread/INFO] [FML]: Applying holder lookups
-[00:02:22] [Server thread/INFO] [FML]: Holder lookups applied
-[00:02:22] [Server thread/INFO] [FML]: Applying holder lookups
-[00:02:22] [Server thread/INFO] [FML]: Holder lookups applied
-[00:02:22] [Server thread/INFO] [FML]: Applying holder lookups
-[00:02:22] [Server thread/INFO] [FML]: Holder lookups applied
-[00:02:22] [Server thread/INFO] [FML]: Injecting itemstacks
-[00:02:22] [Server thread/INFO] [FML]: Itemstack injection complete
-[00:02:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[00:02:22] [Server thread/WARN] [net.minecraft.server.dedicated.PropertyManager]: server.properties does not exist
-[00:02:22] [Server thread/INFO] [net.minecraft.server.dedicated.PropertyManager]: Generating new properties file
-[00:02:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[00:02:22] [Server thread/INFO] [Minecraft]: This server is running CatServer version git-CatServer-1.12.2-ab28211f (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[00:02:23] [Server thread/INFO] []: Server Ping Player Sample Count: 12
-[00:02:23] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
-[00:02:23] [Server thread/INFO] [Minecraft]: Debug logging is enabled
-[00:02:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[00:02:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[00:02:23] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
-[00:02:23] [Server thread/INFO] [FML]: Applying holder lookups
-[00:02:23] [Server thread/INFO] [FML]: Holder lookups applied
-[00:02:23] [Server thread/INFO] [FML]: Injecting itemstacks
-[00:02:23] [Server thread/INFO] [FML]: Itemstack injection complete
-[00:02:23] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
-[00:02:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[00:02:24] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin]: [spark] Enabling spark v1.8.19
-[00:02:25] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin]: [spark] Using Bukkit scheduler for tick monitoring
-[00:02:25] [Server thread/INFO] [Minecraft]: -------- World Settings For [world] --------
-[00:02:25] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
-[00:02:25] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:02:25] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[00:02:25] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
-[00:02:25] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
-[00:02:25] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[00:02:25] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
-[00:02:25] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
-[00:02:25] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
-[00:02:25] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
-[00:02:25] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
-[00:02:25] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
-[00:02:25] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
-[00:02:25] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
-[00:02:25] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
-[00:02:25] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
-[00:02:25] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
-[00:02:25] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
-[00:02:25] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
-[00:02:25] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[00:02:25] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
-[00:02:25] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
-[00:02:25] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[00:02:25] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
-[00:02:25] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
-[00:02:25] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:02:25] [Server thread/INFO] [Minecraft]: View Distance: 10
-[00:02:25] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@6854d2d8)
-[00:02:26] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[00:02:26] [Server thread/INFO] [Minecraft]: -------- World Settings For [DIM-1] --------
-[00:02:26] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
-[00:02:26] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:02:26] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[00:02:26] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
-[00:02:26] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
-[00:02:26] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[00:02:26] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
-[00:02:26] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
-[00:02:26] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
-[00:02:26] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[00:02:26] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
-[00:02:26] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
-[00:02:26] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[00:02:26] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
-[00:02:26] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
-[00:02:26] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:02:26] [Server thread/INFO] [Minecraft]: View Distance: 10
-[00:02:26] [Server thread/INFO] [FML]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@6854d2d8)
-[00:02:26] [Server thread/INFO] [Minecraft]: -------- World Settings For [DIM1] --------
-[00:02:26] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
-[00:02:26] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
-[00:02:26] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
-[00:02:26] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
-[00:02:26] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
-[00:02:26] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[00:02:26] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
-[00:02:26] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
-[00:02:26] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
-[00:02:26] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
-[00:02:26] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[00:02:26] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
-[00:02:26] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
-[00:02:26] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[00:02:26] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
-[00:02:26] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
-[00:02:26] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[00:02:26] [Server thread/INFO] [Minecraft]: View Distance: 10
-[00:02:26] [Server thread/INFO] [FML]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@6854d2d8)
-[00:02:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[00:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 13%
-[00:02:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 33%
-[00:02:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 49%
-[00:02:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 65%
-[00:02:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 82%
-[00:02:32] [Server thread/WARN] [CatServer]: You are using an unofficial or dev build of CatServer!
-[00:02:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (8.837s)! For help, type "help" or "?"
-[00:02:42] [Server thread/INFO] []: Unknown command. Type "/help" for help.
-[00:02:44] [Server thread/INFO] []: Unknown command. Type "/help" for help.
-[00:02:47] [Server thread/INFO] []: Unknown command. Type "/help" for help.
-[00:02:51] [Server thread/INFO] []: Unknown command. Type "/help" for help.
-[00:02:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[00:02:52] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin]: [spark] Disabling spark v1.8.19
-[00:02:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[00:02:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[00:02:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[00:02:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM-1'/the_nether
-[00:02:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM1'/the_end
-[00:02:53] [Server thread/INFO] [FML]: Unloading dimension 0
-[00:02:53] [Server thread/INFO] [FML]: Unloading dimension -1
-[00:02:53] [Server thread/INFO] [FML]: Unloading dimension 1
+[00:21:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[00:21:50] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[00:21:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[00:21:50] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[00:21:50] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_351, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_351
+[00:21:50] [main/WARN] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
+[00:21:50] [main/WARN] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
+[00:21:50] [main/WARN] [FML]: The coremod CatCorePlugin (catserver.server.CatCorePlugin) is not signed!
+[00:21:50] [main/INFO] [FML]: Searching C:\Users\이채은\Documents\GIT\minecraft\.\mods for mods
+[00:21:50] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from Locks-1.12.2-3.0.0.jar
+[00:21:50] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
+[00:21:50] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Xaeros_Minimap_23.9.1_Forge_1.12.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[00:21:50] [main/WARN] [FML]: The coremod XaeroMinimapPlugin (xaero.common.core.XaeroMinimapPlugin) is not signed!
+[00:21:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:21:50] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[00:21:50] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/이채은/Documents/GIT/minecraft/./mods/Locks-1.12.2-3.0.0.jar Service=LaunchWrapper Env=SERVER
+[00:21:50] [main/WARN] [FML]: The coremod MixinLoader (melonslise.locks.mixin.MixinLoader) is not signed!
+[00:21:50] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[00:21:50] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[00:21:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:21:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:21:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:21:50] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[00:21:50] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[00:21:50] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
+[00:21:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:21:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:21:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:21:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:21:51] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[00:21:51] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@a8a8b75
+[00:21:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:21:52] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:21:52] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[00:21:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:21:52] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[00:21:52] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[00:21:52] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class net.minecraft.server.MinecraftServer net.minecraft.server.MinecraftServer
+[00:21:52] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class pl net.minecraft.server.management.PlayerList
+[00:21:52] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class aed net.minecraft.entity.player.EntityPlayer
+[00:21:52] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[00:21:54] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:29]: Transforming class oq net.minecraft.entity.player.EntityPlayerMP
+[00:21:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[00:21:55] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[00:21:55] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[00:21:55] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[00:21:56] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[00:21:56] [Server thread/INFO] [FML]: Searching C:\Users\이채은\Documents\GIT\minecraft\.\mods for mods
+[00:21:56] [Server thread/WARN] [FML]: Mod cookingforblockheads is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 6.5.0
+[00:21:56] [Server thread/INFO] [FML]: Forge Mod Loader has identified 16 mods to load
+[00:21:56] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[00:21:56] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, cookingforblockheads, elevatorid, ftblib, ftbutilities, cfm, locks, mcwbridges, mcwfences, harvestcraft, xaerominimap, xtones] at CLIENT
+[00:21:56] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, cookingforblockheads, elevatorid, ftblib, ftbutilities, cfm, locks, mcwbridges, mcwfences, harvestcraft, xaerominimap, xtones] at SERVER
+[00:21:57] [Server thread/INFO] []: Transforming class axw net.minecraft.world.chunk.Chunk
+[00:21:57] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[00:21:57] [Server thread/INFO] [FML]: Found 1190 ObjectHolder annotations
+[00:21:57] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[00:21:57] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[00:21:57] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[00:21:57] [Server thread/WARN] [FTB Library]: Replacing com.feed_the_beast.ftblib.lib.config.DefaultRankConfigHandler with com.feed_the_beast.ftbutilities.ranks.FTBUtilitiesPermissionHandler
+[00:21:57] [Server thread/WARN] [FML]: Replacing net.minecraftforge.server.permission.DefaultPermissionHandler with com.feed_the_beast.ftbutilities.ranks.FTBUtilitiesPermissionHandler
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `apple`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wheat`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `carrot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `melon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `clownfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pufferfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `baked_potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:58] [Server thread/INFO] [FML]: Applying holder lookups
+[00:21:58] [Server thread/INFO] [FML]: Holder lookups applied
+[00:21:58] [Server thread/INFO] [FML]: Applying holder lookups
+[00:21:58] [Server thread/INFO] [FML]: Holder lookups applied
+[00:21:58] [Server thread/INFO] [FML]: Applying holder lookups
+[00:21:58] [Server thread/INFO] [FML]: Holder lookups applied
+[00:21:58] [Server thread/INFO] [FML]: Applying holder lookups
+[00:21:58] [Server thread/INFO] [FML]: Holder lookups applied
+[00:21:58] [Server thread/INFO] [FML]: Injecting itemstacks
+[00:21:58] [Server thread/INFO] [FML]: Itemstack injection complete
+[00:21:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[00:21:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[00:21:58] [Server thread/INFO] [Minecraft]: This server is running CatServer version git-CatServer-1.12.2-ab28211f (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[00:21:58] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[00:21:58] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[00:21:58] [Server thread/INFO] []: Server Ping Player Sample Count: 12
+[00:21:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[00:21:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[00:21:58] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Unable to find recipe for minecraft:rabbit_stew
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Unable to find recipe for minecraft:baked_potato
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/INFO] [FML]: Applying holder lookups
+[00:21:59] [Server thread/INFO] [FML]: Holder lookups applied
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmoven`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfridge`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfreezer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbedsidecabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmailbox`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcomputer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmprinter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmstereo`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmpresent`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbin`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwallcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbath`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmshowerhead`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmplate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcouch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtoaster`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmchoppingboard`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmblender`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmicrowave`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwashingmachine`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdishwasher`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinetkitchen`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcup`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcookiejar`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtree`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmirror`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmgrill`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmeski`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdoormat`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcrate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmlightswitch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmceilingfan`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdeskcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmodernslidingdoor`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdigitalclock`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtv`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounterdrawer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:ocean;OCEAN;0.5;false;false;false;[WATER, OCEAN]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:plains;MEDIUM;0.8;false;false;false;[PLAINS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:desert;WARM;2.0;false;false;false;[HOT, DRY, SANDY]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:extreme_hills;MEDIUM;0.2;false;false;false;[MOUNTAIN, HILLS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:forest;MEDIUM;0.7;false;false;false;[FOREST]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:taiga;MEDIUM;0.25;false;false;false;[FOREST, CONIFEROUS, COLD]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:swampland;MEDIUM;0.8;true;false;false;[WET, SWAMP]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:river;MEDIUM;0.5;false;false;false;[WATER, RIVER]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:hell;WARM;2.0;false;false;false;[HOT, DRY, NETHER]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:sky;MEDIUM;0.5;false;false;false;[DRY, COLD, END]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:frozen_ocean;OCEAN;0.0;false;false;true;[SNOWY, WATER, OCEAN, COLD]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:frozen_river;COLD;0.0;false;false;true;[SNOWY, WATER, COLD, RIVER]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:ice_flats;COLD;0.0;false;false;true;[SNOWY, COLD, WASTELAND]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:ice_mountains;COLD;0.0;false;false;true;[SNOWY, MOUNTAIN, COLD]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mushroom_island;MEDIUM;0.9;true;false;false;[RARE, MUSHROOM]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mushroom_island_shore;MEDIUM;0.9;true;false;false;[RARE, BEACH, MUSHROOM]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:beaches;MEDIUM;0.8;false;false;false;[BEACH]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:desert_hills;WARM;2.0;false;false;false;[HOT, DRY, SANDY, HILLS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:forest_hills;MEDIUM;0.7;false;false;false;[FOREST, HILLS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:taiga_hills;MEDIUM;0.25;false;false;false;[FOREST, CONIFEROUS, COLD, HILLS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:smaller_extreme_hills;MEDIUM;0.2;false;false;false;[MOUNTAIN]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:jungle;MEDIUM;0.95;true;false;false;[HOT, JUNGLE, WET, DENSE]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:jungle_hills;MEDIUM;0.95;true;false;false;[HOT, JUNGLE, WET, HILLS, DENSE]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:jungle_edge;MEDIUM;0.95;false;false;false;[HOT, JUNGLE, WET, FOREST, RARE]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:deep_ocean;OCEAN;0.5;false;false;false;[WATER, OCEAN]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:stone_beach;MEDIUM;0.2;false;false;false;[BEACH]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:cold_beach;COLD;0.05;false;false;true;[SNOWY, COLD, BEACH]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:birch_forest;MEDIUM;0.6;false;false;false;[FOREST]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:birch_forest_hills;MEDIUM;0.6;false;false;false;[FOREST, HILLS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:roofed_forest;MEDIUM;0.7;false;false;false;[FOREST, SPOOKY, DENSE]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:taiga_cold;COLD;-0.5;false;false;true;[SNOWY, FOREST, CONIFEROUS, COLD]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:taiga_cold_hills;COLD;-0.5;false;false;true;[SNOWY, FOREST, CONIFEROUS, COLD, HILLS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:redwood_taiga;MEDIUM;0.3;false;false;false;[FOREST, CONIFEROUS, COLD]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:redwood_taiga_hills;MEDIUM;0.3;false;false;false;[FOREST, CONIFEROUS, COLD, HILLS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:extreme_hills_with_trees;MEDIUM;0.2;false;false;false;[FOREST, MOUNTAIN, SPARSE]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:savanna;WARM;1.2;false;false;false;[HOT, SPARSE, SAVANNA, PLAINS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:savanna_rock;WARM;1.0;false;false;false;[HOT, RARE, SPARSE, SAVANNA, PLAINS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mesa;WARM;2.0;false;false;false;[DRY, SANDY, MESA]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mesa_rock;WARM;2.0;false;false;false;[DRY, SANDY, SPARSE, MESA]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mesa_clear_rock;WARM;2.0;false;false;false;[DRY, SANDY, MESA]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:void;MEDIUM;0.5;false;false;false;[VOID]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_plains;MEDIUM;0.8;false;true;false;[RARE, PLAINS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_desert;WARM;2.0;false;true;false;[HOT, RARE, DRY, SANDY]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_extreme_hills;MEDIUM;0.2;false;true;false;[RARE, MOUNTAIN, SPARSE]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_forest;MEDIUM;0.7;false;true;false;[FOREST, RARE, HILLS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_taiga;MEDIUM;0.25;false;true;false;[FOREST, RARE, CONIFEROUS, MOUNTAIN, COLD]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_swampland;MEDIUM;0.8;true;true;false;[WET, RARE, SWAMP, HILLS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_ice_flats;COLD;0.0;false;true;true;[SNOWY, RARE, COLD, HILLS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_jungle;MEDIUM;0.95;true;true;false;[HOT, JUNGLE, WET, RARE, MOUNTAIN, DENSE]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_jungle_edge;MEDIUM;0.95;false;true;false;[HOT, JUNGLE, RARE, SPARSE, HILLS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_birch_forest;MEDIUM;0.6;false;true;false;[FOREST, RARE, HILLS, DENSE]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_birch_forest_hills;MEDIUM;0.6;false;true;false;[FOREST, RARE, MOUNTAIN, DENSE]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_roofed_forest;MEDIUM;0.7;false;true;false;[FOREST, RARE, MOUNTAIN, SPOOKY, DENSE]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_taiga_cold;COLD;-0.5;false;true;true;[SNOWY, FOREST, RARE, CONIFEROUS, MOUNTAIN, COLD]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_redwood_taiga;MEDIUM;0.25;false;true;false;[FOREST, RARE, DENSE]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_redwood_taiga_hills;MEDIUM;0.25;false;true;false;[FOREST, RARE, HILLS, DENSE]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_extreme_hills_with_trees;MEDIUM;0.2;false;true;false;[RARE, MOUNTAIN, SPARSE]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_savanna;WARM;1.1;false;true;false;[HOT, RARE, DRY, MOUNTAIN, SPARSE, SAVANNA]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_savanna_rock;WARM;1.0;false;true;false;[HOT, RARE, DRY, SPARSE, SAVANNA, HILLS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa;WARM;2.0;false;true;false;[HOT, RARE, DRY, MOUNTAIN, SPARSE]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa_rock;WARM;2.0;false;true;false;[HOT, RARE, DRY, SPARSE, HILLS]
+[00:21:59] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa_clear_rock;WARM;2.0;false;true;false;[HOT, RARE, DRY, MOUNTAIN, SPARSE]
+[00:21:59] [Server thread/INFO] [harvestcraft]: Registering drops for shadedGarden.
+[00:21:59] [Server thread/INFO] [harvestcraft]: Registering drops for tropicalGarden.
+[00:21:59] [Server thread/INFO] [harvestcraft]: Registering drops for windyGarden.
+[00:21:59] [Server thread/INFO] [harvestcraft]: Registering drops for frostGarden.
+[00:21:59] [Server thread/INFO] [harvestcraft]: Registering drops for aridGarden.
+[00:21:59] [Server thread/INFO] [harvestcraft]: Registering drops for soggyGarden.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamapiary`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pammarket`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamshippingbin`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pampresser`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamgroundtrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamwatertrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamwaterfilter`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamgrinder`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:21:59] [Server thread/INFO] [FML]: Injecting itemstacks
+[00:21:59] [Server thread/INFO] [FML]: Itemstack injection complete
+[00:21:59] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 16 mods
+[00:21:59] [Server thread/INFO] []: Transforming class bfc net.minecraft.world.storage.SaveFormatOld
+[00:21:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[00:21:59] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[00:21:59] [Server thread/INFO] [FML]: Applying holder lookups
+[00:21:59] [Server thread/INFO] [FML]: Holder lookups applied
+[00:22:00] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin]: [spark] Loading spark v1.8.19
+[00:22:00] [Server thread/INFO] [ch.njol.skript.Skript]: [Skript] Loading Skript v2.4
+[00:22:00] [Server thread/INFO] [com.gmail.thelimeglass.Skellett]: [Skellett] Loading Skellett v1.8.5
+[00:22:00] [Server thread/INFO] [net.rayfall.eyesniper2.skrayfall.Core]: [skRayFall] Loading skRayFall v1.9.20
+[00:22:00] [Server thread/INFO] [com.w00tmast3r.skquery.SkQuery]: [SkQuery] Loading SkQuery v3.6.5
+[00:22:01] [Server thread/INFO] [Minecraft]: -------- World Settings For [world] --------
+[00:22:01] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:22:01] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[00:22:01] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:22:01] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[00:22:01] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[00:22:01] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
+[00:22:01] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[00:22:01] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[00:22:01] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:22:01] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:22:01] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
+[00:22:01] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
+[00:22:01] [Server thread/INFO] [Minecraft]: View Distance: 10
+[00:22:01] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[00:22:01] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
+[00:22:01] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[00:22:01] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[00:22:01] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@466c8c25)
+[00:22:01] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 513 advancements
+[00:22:01] [Server thread/INFO] [Minecraft]: -------- World Settings For [DIM-1] --------
+[00:22:01] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:22:01] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[00:22:01] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:22:01] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[00:22:01] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[00:22:01] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
+[00:22:01] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[00:22:01] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[00:22:01] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:22:01] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:22:01] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
+[00:22:01] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
+[00:22:01] [Server thread/INFO] [Minecraft]: View Distance: 10
+[00:22:01] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[00:22:01] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
+[00:22:01] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[00:22:01] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[00:22:01] [Server thread/INFO] [FML]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@466c8c25)
+[00:22:01] [Server thread/INFO] [Minecraft]: -------- World Settings For [DIM1] --------
+[00:22:01] [Server thread/INFO] [Minecraft]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:22:01] [Server thread/INFO] [Minecraft]: Experience Merge Radius: 3.0
+[00:22:01] [Server thread/INFO] [Minecraft]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:22:01] [Server thread/INFO] [Minecraft]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[00:22:01] [Server thread/INFO] [Minecraft]: Item Merge Radius: 2.5
+[00:22:01] [Server thread/INFO] [Minecraft]: Mob Spawn Range: 4
+[00:22:01] [Server thread/INFO] [Minecraft]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[00:22:01] [Server thread/INFO] [Minecraft]: Max TNT Explosions: 100
+[00:22:01] [Server thread/INFO] [Minecraft]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:22:01] [Server thread/INFO] [Minecraft]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:22:01] [Server thread/INFO] [Minecraft]: Random Lighting Updates: false
+[00:22:01] [Server thread/INFO] [Minecraft]: Cactus Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Cane Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Melon Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Mushroom Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Pumpkin Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Sapling Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Wheat Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: NetherWart Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Vine Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Cocoa Growth Modifier: 100%
+[00:22:01] [Server thread/INFO] [Minecraft]: Structure Info Saving: true
+[00:22:01] [Server thread/INFO] [Minecraft]: View Distance: 10
+[00:22:01] [Server thread/INFO] [Minecraft]: Item Despawn Rate: 6000
+[00:22:01] [Server thread/INFO] [Minecraft]: Arrow Despawn Rate: 1200
+[00:22:01] [Server thread/INFO] [Minecraft]: Zombie Aggressive Towards Villager: true
+[00:22:01] [Server thread/INFO] [Minecraft]: Nerfing mobs spawned from spawners: false
+[00:22:01] [Server thread/INFO] [FML]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@466c8c25)
+[00:22:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[00:22:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 51%
+[00:22:02] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin]: [spark] Enabling spark v1.8.19
+[00:22:04] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin]: [spark] Using Bukkit scheduler for tick monitoring
+[00:22:04] [Server thread/INFO] [ch.njol.skript.Skript]: [Skript] Enabling Skript v2.4
+[00:22:04] [Server thread/INFO] [Minecraft]: [Skript] Successfully generated the config and the example scripts.
+[00:22:04] [ForkJoinPool.commonPool-worker-10/INFO] []: [Skript] A new version of Skript is available: 2.7.3 (you're currently running 2.4)
+[00:22:04] [ForkJoinPool.commonPool-worker-10/INFO] []: Download it at: <aqua><u><link:https://github.com/SkriptLang/Skript/releases/download/2.7.3/Skript.jar>https://github.com/SkriptLang/Skript/releases/download/2.7.3/Skript.jar
+[00:22:06] [Server thread/INFO] [Minecraft]: [Skript] Loaded 18230 aliases in 1626ms
+[00:22:07] [Server thread/INFO] [Minecraft]: [Skript]  ~ created by & ? Peter G?ttinger aka Njol ~
+[00:22:07] [Server thread/INFO] [com.gmail.thelimeglass.Skellett]: [Skellett] Enabling Skellett v1.8.5
+[00:22:07] [Server thread/INFO] []: [Skellett] config.yml not found, generating a new config!
+[00:22:07] [Server thread/INFO] []: [Skellett] CustomEvents.yml not found, generating a new config!
+[00:22:07] [Server thread/INFO] []: [Skellett] SkellettProxy.yml not found, generating a new file!
+[00:22:07] [Server thread/INFO] []: [Skellett] MySQL.yml not found, generating a new file!
+[00:22:07] [Server thread/INFO] []: [Skellett] Syntax.yml not found, generating a new file!
+[00:22:07] [Server thread/INFO] []: [Skellett] SyntaxToggles.yml not found, generating a new file!
+[00:22:08] [Server thread/INFO] []: [Skellett] Main.PrepareEnchant syntax is for 1.11.2+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] GravityState syntax is for 1.10+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] Unbreakable syntax is for 1.11.2+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] Main.Books syntax is for 1.9R1+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] LlamaColour syntax is for 1.11+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] Main.PrepareEnchant syntax is for 1.11.2+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] Syntax.Events.AnvilPrepare syntax is for 1.11.2+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] SpectralArrow syntax is for 1.10+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] GlideState syntax is for 1.10+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] Main.PrepareEnchant syntax is for 1.11.2+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] LlamaInventoryDecor syntax is for 1.11+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] Main.Books syntax is for 1.9R1+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] LlamaInventory syntax is for 1.11+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] Syntax.Events.AnvilPrepare syntax is for 1.11.2+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] Main.Maps syntax is for 1.11+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] Syntax.Expressions.Unbreakable syntax is for 1.11.2+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] Unbreakable syntax is for 1.11.2+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] Syntax.Events.BrewingFuel syntax is for 1.11.2+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] InvulnerableState syntax is for 1.9R1+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] SilentState syntax is for 1.10+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] EntityScoreboardTag syntax is for 1.11+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] Syntax.Events.BrewingFuel syntax is for 1.11.2+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] Main.PrepareEnchant syntax is for 1.11.2+ spigot versions!
+[00:22:08] [Server thread/INFO] []: [Skellett] Registered 56 Effects, 16 Conditions, 146 Expressions and 27 Events
+[00:22:09] [Server thread/INFO] []: [Skellett] Failed to check for an update on spigot
+[00:22:09] [Server thread/INFO] []: [Skellett] Has been enabled!
+[00:22:09] [Server thread/INFO] [net.rayfall.eyesniper2.skrayfall.Core]: [skRayFall] Enabling skRayFall v1.9.20
+[00:22:09] [Server thread/INFO] [net.rayfall.eyesniper2.skrayfall.Core]: [skRayFall] Yay! You are running skRayFall 1.9.20!
+[00:22:09] [Server thread/INFO] [net.rayfall.eyesniper2.skrayfall.Core]: [skRayFall] Nathan and Lewis <3 you.
+[00:22:09] [Server thread/INFO] [net.rayfall.eyesniper2.skrayfall.Core]: [skRayFall] Cooking Bacon...
+[00:22:09] [Server thread/INFO] [net.rayfall.eyesniper2.skrayfall.Core]: [skRayFall] Citizens not found! Sorry you cant make friends, but don't worry we will still be your friend <3
+[00:22:09] [Server thread/INFO] [net.rayfall.eyesniper2.skrayfall.Core]: [skRayFall] Got bacon for the EffectLib particle ninjas!
+[00:22:09] [Server thread/INFO] [net.rayfall.eyesniper2.skrayfall.Core]: [skRayFall] No Votifier Found! *Checks oven for finished bacon*
+[00:22:09] [Server thread/INFO] [net.rayfall.eyesniper2.skrayfall.Core]: [skRayFall] Enabling general 1.8+ bacon!
+[00:22:09] [Server thread/INFO] [net.rayfall.eyesniper2.skrayfall.Core]: [skRayFall] Getting the general 1.9+ bacon!
+[00:22:09] [Server thread/INFO] [net.rayfall.eyesniper2.skrayfall.Core]: [skRayFall] Getting the extra special 1.12 bacon!
+[00:22:09] [Server thread/INFO] []: [skRayFall] An update for skRayFall is available!
+[00:22:09] [Server thread/INFO] [net.rayfall.eyesniper2.skrayfall.Core]: [skRayFall] Bacon is ready!
+[00:22:09] [Server thread/INFO] [com.w00tmast3r.skquery.SkQuery]: [SkQuery] Enabling SkQuery v3.6.5
+[00:22:09] [Server thread/INFO] [Minecraft]: [skQuery] Locating classes from SkQuery...
+[00:22:09] [Server thread/INFO] [Minecraft]: [skQuery] Beginning to process a total of 139 from SkQuery
+[00:22:09] [Server thread/INFO] [Minecraft]: [skQuery] Out of 139 classes, 137 classes were loaded from SkQuery
+[00:22:09] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[00:22:09] [Server thread/WARN] [CatServer]: You are using an unofficial or dev build of CatServer!
+[00:22:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (10.548s)! For help, type "help" or "?"
+[00:22:10] [Server thread/INFO] [xaero.common.MinimapLogs]: Registered synced player tracker system: ftb_teams
+[00:22:10] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 513 advancements
+[00:22:10] [Server thread/INFO] [FTB Library]: Reloaded server in 5ms
+[00:22:10] [Server thread/INFO] [FTB Utilities]: Overridden 100 commands
+[00:22:10] [Server thread/INFO] [Minecraft]: [Skript] Loading variables...
+[00:22:10] [Server thread/INFO] [Minecraft]: [Skript] Loaded 0 variables in 0.0 seconds
+[00:22:10] [Server thread/INFO] [Minecraft]: [Skript] All scripts loaded without errors.
+[00:22:10] [Server thread/WARN] [Minecraft]: [Skript] No scripts were found, maybe you should write some ;) (config.sk, line 188: databases:')
+[00:22:10] [Server thread/INFO] [Minecraft]: [Skript] Finished loading.
+[00:22:49] [Server thread/INFO] []: Usage: /skript reload ...
+[00:22:49] [Server thread/INFO] []:   all - Reloads all configs and all scripts
+[00:22:49] [Server thread/INFO] []:   config - Reloads the main config
+[00:22:49] [Server thread/INFO] []:   aliases - Reloads the aliases configs (aliases-*.sk)
+[00:22:49] [Server thread/INFO] []:   scripts - Reloads all scripts
+[00:22:49] [Server thread/INFO] []:   <script> - Reloads a specific script or a folder of scripts
+[00:22:53] [Server thread/INFO] []: Unknown command. Type "/help" for help.
+[00:22:59] [Server thread/INFO] []: Usage: /skript reload ...
+[00:22:59] [Server thread/INFO] []:   all - Reloads all configs and all scripts
+[00:22:59] [Server thread/INFO] []:   config - Reloads the main config
+[00:22:59] [Server thread/INFO] []:   aliases - Reloads the aliases configs (aliases-*.sk)
+[00:22:59] [Server thread/INFO] []:   scripts - Reloads all scripts
+[00:22:59] [Server thread/INFO] []:   <script> - Reloads a specific script or a folder of scripts
+[00:23:05] [Server thread/INFO] []: Unknown command. Type "/help" for help.
+[00:23:10] [Timer-1/INFO] [CatServer]: Join CatServer Telegram group: https://t.me/CatServer
+[00:23:15] [Server thread/INFO] []: [Skript] Reloading the config and all scripts...
+[00:23:16] [Server thread/INFO] [Minecraft]: Loaded 18230 aliases in 926ms
+[00:23:16] [Server thread/INFO] [Minecraft]: All scripts loaded without errors.
+[00:23:16] [Server thread/INFO] [Minecraft]: Loaded 3 scripts with a total of 2 triggers and 2 commands in 0.42 seconds
+[00:23:16] [Server thread/INFO] []: [Skript] Successfully reloaded the config and all scripts.
+[00:23:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[00:23:25] [Server thread/INFO] [com.w00tmast3r.skquery.SkQuery]: [SkQuery] Disabling SkQuery v3.6.5
+[00:23:25] [Server thread/INFO] [net.rayfall.eyesniper2.skrayfall.Core]: [skRayFall] Disabling skRayFall v1.9.20
+[00:23:25] [Server thread/INFO] [net.rayfall.eyesniper2.skrayfall.Core]: [skRayFall] Bacon has been eaten. Make some more soon!
+[00:23:25] [Server thread/INFO] [com.gmail.thelimeglass.Skellett]: [Skellett] Disabling Skellett v1.8.5
+[00:23:25] [Server thread/INFO] [ch.njol.skript.Skript]: [Skript] Disabling Skript v2.4
+[00:23:25] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin]: [spark] Disabling spark v1.8.19
+[00:23:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[00:23:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[00:23:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[00:23:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM-1'/the_nether
+[00:23:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM1'/the_end
+[00:23:25] [Server thread/INFO] [FML]: Unloading dimension 0
+[00:23:25] [Server thread/INFO] [FML]: Unloading dimension -1
+[00:23:25] [Server thread/INFO] [FML]: Unloading dimension 1

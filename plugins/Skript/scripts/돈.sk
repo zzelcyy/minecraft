@@ -1,0 +1,141 @@
+options:
+	c: &a[ &f돈 &a]
+	
+variables:
+	{money::%player%} = 0
+	
+
+command /돈 [<text>] [<player>] [<integer>]:
+	trigger:
+		if arg 1 is not set:
+			message ""
+			message "{@c} &f/돈 &e확인 &f- 자신이 가지고 있는 &c돈&f을 &e확인&f합니다."
+			message "{@c} &f/돈 &e보내기 &c[&f닉네임&c] [&f금액&c] &f- 자신의 &e돈&f을 &c상대방&f에게 보냅니다."
+			message ""
+			if player is op:
+				message "{@c} &f/돈 &e주기 &c[&f닉네임&c] [&f금액&c] &f- &c[&f닉네임&c]&f의 &e돈&f을 &c추가&f합니다."
+				message "{@c} &f/돈 &e빼기 &c[&f닉네임&c] [&f금액&c] &f- &c[&f닉네임&c]&f의 &e돈&f을 &c차감&f합니다."
+				message "{@c} &f/돈 &e설정 &c[&f닉네임&c] [&f금액&c] &f- &c[&f닉네임&c]&f의 &e돈&f을 &c설정&f합니다."
+				message ""
+				message "{@c} &f위 명령어 &e3&f개는 &c오피&f전용 명령어입니다."
+				message ""
+				stop
+			stop
+			
+		if arg 1 is "확인":
+			message ""
+			message "{@c} &f당신이 가지고 있는 &e소지금&f은 &c%{money::%player%}%&f원 입니다."
+			message ""
+			stop
+			
+		if arg 1 is "보내기":
+			if arg 2 is set:
+				if arg 3 is set:
+					if arg 3 < {money::%player%}:
+						if arg 3 > 0:
+							add arg 3 to {money::%arg-2%}
+							remove arg 3 from {money::%player%}
+							message ""
+							message "{@c} &f당신은 &e%arg-2%&f에게 &c%arg-3%&f원을 보내셨습니다."
+							message ""
+							message "" to arg-2
+							message "{@c} &f당신은 &e%player%&f에게 &c%arg-3%&f원을 받으셨습니다." to arg-2
+							message "" to arg-2
+							play sound "block.note.pling" with volume 0.3 at arg 2
+							stop
+							
+						else:
+							message ""
+							message "{@c} &e돈&f은 &c0&f원 이하로 보내실 수 없습니다."
+							message ""
+							stop
+							
+					else:
+						message ""
+						message "{@c} &f당신의 &e소지금&f보다 &c적은 양&f은 보내실 수 없습니다."
+						message ""
+						stop
+						
+				else:
+					message ""
+					message "{@c} &f/돈 &e보내기 &c[&f닉네임&c] [&f금액&c] &f- 자신의 &e돈&f을 &c상대방&f에게 보냅니다."
+					message ""
+					stop
+					
+			else:
+				message ""
+				message "{@c} &f/돈 &e보내기 &c[&f닉네임&c] [&f금액&c] &f- 자신의 &e돈&f을 &c상대방&f에게 보냅니다."
+				message ""
+				stop
+				
+		if arg 1 is "주기":
+			if player is op:
+				if arg 2 is set:
+					if arg 3 is set:
+						add arg 3 to {money::%arg-2%}
+						message ""
+						message "{@c} &f당신은 &e%arg-2%&f에게 &c%arg-3%&f원을 주셨습니다."
+						message ""
+						send arg-2 title "{@c}" with subtitle "&c오피&f님에게 &e돈&f을 받으셨습니다." for 2 seconds
+						play sound "block.note.pling" with volume 0.3 at arg 2
+						stop
+						
+					else:
+						message ""
+						message "{@c} &f/돈 &e주기 &c[&f닉네임&c] [&f금액&c] &f- &c[&f닉네임&c]&f의 &e돈&f을 &c추가&f합니다."
+						message ""
+						stop
+						
+				else:
+					message ""
+					message "{@c} &f/돈 &e주기 &c[&f닉네임&c] [&f금액&c] &f- &c[&f닉네임&c]&f의 &e돈&f을 &c추가&f합니다."
+					message ""
+					stop
+						
+		if arg 1 is "빼기":
+			if player is op:
+				if arg 2 is set:
+					if arg 3 is set:
+						remove arg 3 from {money::%arg-2%}
+						message ""
+						message "{@c} &f당신은 &e%arg-2%&f에게 &c%arg-3%&f원을 빼셨습니다."
+						message ""
+						send arg-2 title "{@c}" with subtitle "&c오피&f님께서 &e돈&f을 빼셨습니다." for 2 seconds
+						play sound "block.note.pling" with volume 0.3 at arg 2
+						stop
+						
+					else:
+						message ""
+						message "{@c} &f/돈 &e빼기 &c[&f닉네임&c] [&f금액&c] &f- &c[&f닉네임&c]&f의 &e돈&f을 &c차감&f합니다."
+						message ""
+						stop
+						
+				else:
+					message ""
+					message "{@c} &f/돈 &e빼기 &c[&f닉네임&c] [&f금액&c] &f- &c[&f닉네임&c]&f의 &e돈&f을 &c차감&f합니다."
+					message ""
+					stop
+					
+		if arg 1 is "설정":
+			if player is op:
+				if arg 2 is set:
+					if arg 3 is set:
+						set {money::%arg-2%} to arg 3
+						message ""
+						message "{@c} &f당신은 &e%arg-2%&f의 돈을 &c%arg-3%&f원으로 설정하셨습니다."
+						message ""
+						send arg-2 title "{@c}" with subtitle "&c오피&f님께서 &e돈&f을 설정하셨습니다." for 2 seconds
+						play sound "block.note.pling" with volume 0.3 at arg 2
+						stop
+						
+					else:
+						message ""
+						message "{@c} &f/돈 &e설정 &c[&f닉네임&c] [&f금액&c] &f- &c[&f닉네임&c]&f의 &e돈&f을 &c설정&f합니다."
+						message ""
+						stop
+						
+				else:
+					message ""
+					message "{@c} &f/돈 &e설정 &c[&f닉네임&c] [&f금액&c] &f- &c[&f닉네임&c]&f의 &e돈&f을 &c설정&f합니다."
+					message ""
+					stop
