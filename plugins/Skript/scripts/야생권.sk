@@ -30,47 +30,42 @@ command /야생권 [<text>]:
 				message ""
 				stop
 
-		else:
-			if {wildtime::%player%} is not set:
-				message ""
-				message "{@c} &f잔여 이용 시간이 없습니다."
-				message ""
-				stop
+		if {wildtime::%player%} is not set:
+			message ""
+			message "{@c} &f잔여 이용 시간이 없습니다."
+			message ""
+			stop
 
-			else if {wildtime::%player%} is 0:
-				message ""
-				message "{@c} &e잔여 이용 시간&e &f &a{}&f을 얻는 아이템을 &c생성&f합니다."
-				message ""
-				stop
+		else if {wildtime::%player%} is 0:
+			message ""
+			message "{@c} &e잔여 이용 시간&e &f &a{}&f을 얻는 아이템을 &c생성&f합니다."
+			message ""
+			stop
+		
+		else if {isInWildForNoLimit::%player%} is true:
+			message ""
+			message "{@c} &a무제한 &f이용권을 사용 중입니다."
+			message ""
+			stop
 			
-			else if {isInWildForNoLimit::%player%} is true:
-				message ""
-				message "{@c} &a무제한 &f이용권을 사용 중입니다."
-				message ""
-				stop
-			
-			else:
-				set {_s} to {wildtime::%player%}
-				set {_m} to round down ( {_s} / 60 )
-				set {_s} to {_s} - ( {_m} * 60 )
-				set {_h} to round down ( {_m} / 60 )
-				set {_m} to {_m} - ( {_h} * 60 )
-				message ""
-				message "{@c} &a%{_h}%시간 %{_m}%분 %{_h}%초 &f남았습니다."
-				message ""
-				stop
+		else:
+			set {_s} to {wildtime::%player%}
+			set {_m} to round down ( {_s} / 60 )
+			set {_s} to {_s} - ( {_m} * 60 )
+			set {_h} to round down ( {_m} / 60 )
+			set {_m} to {_m} - ( {_h} * 60 )
+			message ""
+			message "{@c} &a%{_h}%시간 %{_m}%분 %{_h}%초 &f남았습니다."
+			message ""
+			stop
 
 
 command /스폰:
 	trigger:
 		execute console command "/tp %player% -66 75 483"
-		
-		if {isInWildForNoLimit::%player%} is true:
-			set {isInWildFor30Min::%player%} to false
-			stop
-
-		else:
-			stop
+		set {isInWildForNoLimit::%player%} to false
+		set {isInWildFor30Min::%player%} to false
+		set {wildtime::%player%} to 0
 			
 on rightclick:
 	if player's tool's name contains "{@c}":
