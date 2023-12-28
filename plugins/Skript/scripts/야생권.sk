@@ -100,6 +100,7 @@ on rightclick:
 every 1 seconds:
 	loop all players:
 		if {isInWildFor30Min::%loop-player%} is true:
+			set {wildtime::%loop-player%} to {wildtime::%loop-player%} - 1
 			if {wildtime::%loop-player%} is 5:
 				send "{@c} &f이용 시간이 10분 남았습니다." to loop-player
 				play sound "block.note.pling" with volume 0.3 at loop-player
