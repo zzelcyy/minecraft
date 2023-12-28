@@ -1,0 +1,65 @@
+options:
+	c: &a[ &f야생권 &a]
+	
+command /야생권 [<text>] [<integer>]:
+	trigger:
+		if player is op:
+			if arg 1 is not set:
+				message ""
+				message "{@c} &f/수표 &e[&f금액&e] &c[&f수량&c] &f- 우클릭 시 &e돈&f을 얻는 수표를 &c생성&f합니다."
+				message ""
+				stop
+				
+			if arg 1 is set:
+				if arg 2 is set:
+					if {money::%player%} >= arg 1 * arg 2:
+						if arg 1 >= 1000:
+							#if number of air in the player's inventory > 0:
+							give arg 2 of paper named "{@c} &f%arg 1%&e원" to player
+							remove arg 1 * arg 2 from {money::%player%}
+							message ""
+							message "{@c} &f당신은 &e%arg 1%&f원 수표를 &c%arg-2%&f개를 생성하였습니다."
+							message ""
+							stop
+							
+						else:
+							message ""
+							message "{@c} &f수표는 &e1000&f원 미만으로 &c발행&f하실 수 없습니다."
+							message ""
+							stop
+							
+					else:
+						message ""
+						message "{@c} &f당신이 소지한 &e돈&f보다 많은 &c값&f은 입력하실 수 없습니다."
+						message ""
+						stop
+						
+				else:
+					message ""
+					message "{@c} &f/수표 &e[&f금액&e] &c[&f수량&c] &f- 우클릭 시 &e돈&f을 얻는 수표를 &c생성&f합니다."
+					message ""
+					stop
+					
+			else:
+				message ""
+				message "{@c} &f/수표 &e[&f금액&e] &c[&f수량&c] &f- 우클릭 시 &e돈&f을 얻는 수표를 &c생성&f합니다."
+				message ""
+				stop
+
+		else:
+			message ""
+			message "&c당신은 권한이 없어서 이 명령어를 사용할 수 없습니다"
+			message ""
+			stop
+			
+on rightclick:
+	if player's tool's name contains "{@c}":
+		set {_돈} to uncolored name of player's tool
+		replace all "수표" and " " and "[" and "]" and "원" with "" in {_돈}
+		set {_돈} to {_돈} parsed as integer 
+		remove 1 of player's tool from player's tool
+		add {_돈} to {money::%player%}
+		message ""
+		message "{@c} &f당신은 &e수표&f를 사용하여 &c%{_돈}%&f원을 얻으셨습니다."
+		message ""
+		stop

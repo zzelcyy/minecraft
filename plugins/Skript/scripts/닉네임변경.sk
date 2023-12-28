@@ -33,3 +33,4 @@ every 1 seconds:
         set the loop-player's display name to "%{닉네임::%loop-player%}%"
         set tablist name of loop-player to "%{닉네임::%loop-player%}%"
         set display name of loop-player to "%{닉네임::%loop-player%}%"
+        set the loop-player's nametag to "%{닉네임::%loop-player%}%"
