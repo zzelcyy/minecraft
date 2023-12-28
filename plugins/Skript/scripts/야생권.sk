@@ -12,17 +12,17 @@ command /야생권 [<text>]:
 				
 			if arg 1 is "30분":
 				give 999 of paper named "{@c} &f30분&e" to player
-					message ""
-					message "{@c} &f당신은 30분 야생권 999개를 생성하였습니다."
-					message ""
-					stop
+				message ""
+				message "{@c} &f당신은 30분 야생권 999개를 생성하였습니다."
+				message ""
+				stop
 
 			else if arg 1 is "무제한":
 				give 999 of paper named "{@c} &f무제한&e" to player
-					message ""
-					message "{@c} &f당신은 무제한 야생권 999개를 생성하였습니다."
-					message ""
-					stop
+				message ""
+				message "{@c} &f당신은 무제한 야생권 999개를 생성하였습니다."
+				message ""
+				stop
 					
 			else:
 				message ""
@@ -67,6 +67,7 @@ every 1 seconds:
 				send loop-player "{@c} &f이용 시간이 10분 남았습니다." to loop-player for 2 seconds
 				play sound "block.note.pling" with volume 0.3 at loop-player
 				stop
+				
 			if {wildtime.%loop-player%} = 0:
 				send loop-player "{@c} &f시간이 다 되어 10초 뒤 마을로 돌아갑니다." to loop-player for 2 seconds
 				play sound "block.note.pling" with volume 0.3 at loop-player
