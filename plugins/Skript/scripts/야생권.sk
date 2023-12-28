@@ -8,27 +8,23 @@ command /야생권 [<text>]:
 				message ""
 				message "{@c} &f/야생권 &e[&f무제한/30분&e] &f- 우클릭 시 &e야생권&f을 얻는 아이템을 &c생성&f합니다."
 				message ""
-				stop
 				
 			if arg 1 is "30분":
 				give 1 of paper named "{@c} &f30분&e" to player
 				message ""
 				message "{@c} &f당신은 30분 야생권 999개를 생성하였습니다."
 				message ""
-				stop
 
 			else if arg 1 is "무제한":
 				give 1 of paper named "{@c} &f무제한&e" to player
 				message ""
 				message "{@c} &f당신은 무제한 야생권 999개를 생성하였습니다."
 				message ""
-				stop
 					
 			else:
 				message ""
 				message "{@c} &f/야생권 &e[&f무제한/30분&e] &f- 우클릭 시 &e야생권&f을 얻는 아이템을 &c생성&f합니다."
 				message ""
-				stop
 
 		if {wildtime::%player%} is not set:
 			message ""
@@ -102,10 +98,8 @@ on rightclick:
 		stop
 
 every 1 seconds:
-    loop all players:
-
-        if {isInWildFor30Min::%loop-player%} is true:
-
+	loop all players:
+		if {isInWildFor30Min::%loop-player%} is true:
 			if {wildtime::%loop-player%} is 5:
 				send loop-player "{@c} &f이용 시간이 10분 남았습니다." to loop-player for 2 seconds
 				play sound "block.note.pling" with volume 0.3 at loop-player
