@@ -58,7 +58,7 @@ command /야생권 [<text>]:
 
 command /스폰:
 	trigger:
-		execute console command "/tp %player% -66 75 483"
+		execute console command "/tp %player% 43 67 -28"
 		set {isInWildForNoLimit::%player%} to false
 		set {isInWildFor30Min::%player%} to false
 		set {wildtime::%player%} to 0
@@ -110,6 +110,7 @@ every 1 seconds:
 				play sound "block.note.pling" with volume 0.3 at loop-player
 				wait 10 second
 				set {isInWildFor30Min::%loop-player%} to false
+				execute console command "/tp %loop-player% 43 67 -28"
 				stop
 			
 			else:
