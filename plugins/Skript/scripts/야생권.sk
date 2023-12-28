@@ -101,12 +101,12 @@ every 1 seconds:
 	loop all players:
 		if {isInWildFor30Min::%loop-player%} is true:
 			if {wildtime::%loop-player%} is 5:
-				message "{@c} &f이용 시간이 10분 남았습니다."
+				send "{@c} &f이용 시간이 10분 남았습니다." to loop-player
 				play sound "block.note.pling" with volume 0.3 at loop-player
 				stop
 
 			if {wildtime::%loop-player%} is 0:
-				message "{@c} &f시간이 다 되어 10초 뒤 마을로 돌아갑니다."
+				send "{@c} &f시간이 다 되어 10초 뒤 마을로 돌아갑니다." to loop-player
 				play sound "block.note.pling" with volume 0.3 at loop-player
 				wait 10 second
 				set {isInWildFor30Min::%loop-player%} to false
