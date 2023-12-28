@@ -34,7 +34,7 @@ command /야생권 [<text>]:
 
 		else if {wildtime::%player%} is 0:
 			message ""
-			message "{@c} &e잔여 이용 시간&e &f &a{}&f을 얻는 아이템을 &c생성&f합니다."
+			message "{@c} &f잔여 이용 시간이 없습니다."
 			message ""
 			stop
 		
@@ -51,7 +51,7 @@ command /야생권 [<text>]:
 			set {_h} to round down ( {_m} / 60 )
 			set {_m} to {_m} - ( {_h} * 60 )
 			message ""
-			message "{@c} &a%{_h}%시간 %{_m}%분 %{_h}%초 &f남았습니다."
+			message "{@c} &a%{_h}%시간 &a%{_m}%분 &a%{_h}%초 &f남았습니다."
 			message ""
 			stop
 
@@ -101,12 +101,12 @@ every 1 seconds:
 	loop all players:
 		if {isInWildFor30Min::%loop-player%} is true:
 			if {wildtime::%loop-player%} is 5:
-				send loop-player "{@c} &f이용 시간이 10분 남았습니다." for 2 seconds
+				message "{@c} &f이용 시간이 10분 남았습니다."
 				play sound "block.note.pling" with volume 0.3 at loop-player
 				stop
 
 			if {wildtime::%loop-player%} is 0:
-				send loop-player "{@c} &f시간이 다 되어 10초 뒤 마을로 돌아갑니다." for 2 seconds
+				message "{@c} &f시간이 다 되어 10초 뒤 마을로 돌아갑니다."
 				play sound "block.note.pling" with volume 0.3 at loop-player
 				wait 10 second
 				set {isInWildFor30Min::%loop-player%} to false
