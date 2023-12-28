@@ -1,48 +1,32 @@
 options:
 	c: &a[ &f야생권 &a]
 	
-command /야생권 [<text>] [<integer>]:
+command /야생권 [<text>]:
 	trigger:
 		if player is op:
 			if arg 1 is not set:
 				message ""
-				message "{@c} &f/수표 &e[&f금액&e] &c[&f수량&c] &f- 우클릭 시 &e돈&f을 얻는 수표를 &c생성&f합니다."
+				message "{@c} &f/야생권 &e[&f무제한/30분&e] &f- 우클릭 시 &e야생권&f을 얻는 아이템을 &c생성&f합니다."
 				message ""
 				stop
 				
-			if arg 1 is set:
-				if arg 2 is set:
-					if {money::%player%} >= arg 1 * arg 2:
-						if arg 1 >= 1000:
-							#if number of air in the player's inventory > 0:
-							give arg 2 of paper named "{@c} &f%arg 1%&e원" to player
-							remove arg 1 * arg 2 from {money::%player%}
-							message ""
-							message "{@c} &f당신은 &e%arg 1%&f원 수표를 &c%arg-2%&f개를 생성하였습니다."
-							message ""
-							stop
-							
-						else:
-							message ""
-							message "{@c} &f수표는 &e1000&f원 미만으로 &c발행&f하실 수 없습니다."
-							message ""
-							stop
-							
-					else:
-						message ""
-						message "{@c} &f당신이 소지한 &e돈&f보다 많은 &c값&f은 입력하실 수 없습니다."
-						message ""
-						stop
-						
-				else:
+			if arg 1 is "30분":
+				give 999 of paper named "{@c} &f30분&e" to player
 					message ""
-					message "{@c} &f/수표 &e[&f금액&e] &c[&f수량&c] &f- 우클릭 시 &e돈&f을 얻는 수표를 &c생성&f합니다."
+					message "{@c} &f당신은 30분 야생권 999개를 생성하였습니다."
+					message ""
+					stop
+
+			else if arg 1 is "무제한":
+				give 999 of paper named "{@c} &f무제한&e" to player
+					message ""
+					message "{@c} &f당신은 무제한 야생권 999개를 생성하였습니다."
 					message ""
 					stop
 					
 			else:
 				message ""
-				message "{@c} &f/수표 &e[&f금액&e] &c[&f수량&c] &f- 우클릭 시 &e돈&f을 얻는 수표를 &c생성&f합니다."
+				message "{@c} &f/야생권 &e[&f무제한/30분&e] &f- 우클릭 시 &e야생권&f을 얻는 아이템을 &c생성&f합니다."
 				message ""
 				stop
 
@@ -51,15 +35,41 @@ command /야생권 [<text>] [<integer>]:
 			message "&c당신은 권한이 없어서 이 명령어를 사용할 수 없습니다"
 			message ""
 			stop
+
+command /스폰:
+	trigger:
+		execute console command "/tp %player% -66 75 483"
 			
 on rightclick:
 	if player's tool's name contains "{@c}":
-		set {_돈} to uncolored name of player's tool
-		replace all "수표" and " " and "[" and "]" and "원" with "" in {_돈}
-		set {_돈} to {_돈} parsed as integer 
-		remove 1 of player's tool from player's tool
-		add {_돈} to {money::%player%}
-		message ""
-		message "{@c} &f당신은 &e수표&f를 사용하여 &c%{_돈}%&f원을 얻으셨습니다."
-		message ""
-		stop
+		remove 1 of player's tool from player's inventory
+		execute console command "/tp %player% 116 67 149"
+
+		if player's tool's name contains "30분":
+			set {wildtime.%player%} to 1800
+			set {isInWildFor30Min.%player%} to true
+			message ""
+			message "{@c} &f지금부터 &e30분&f 뒤 마을로 귀환합니다."
+			message "{@c} &f마을로 이동하려면 &e/스폰&f 명령어를 사용하세요."
+			message ""
+			stop
+
+		else:
+			message ""
+			message "{@c} &f마을로 이동하려면 &e/스폰&f 명령어를 사용하세요."
+			message ""
+			stop
+
+every 1 seconds:
+    loop all players:
+		if {isInWildFor30Min.%loop-player%} is true:
+			if {wildtime.%loop-player%} is 600:
+				send loop-player "{@c} &f이용 시간이 10분 남았습니다." to loop-player for 2 seconds
+				play sound "block.note.pling" with volume 0.3 at loop-player
+				stop
+			if {wildtime.%loop-player%} = 0:
+				send loop-player "{@c} &f시간이 다 되어 10초 뒤 마을로 돌아갑니다." to loop-player for 2 seconds
+				play sound "block.note.pling" with volume 0.3 at loop-player
+				wait 10 second
+				set {isInWildFor30Min.%loop-player%} to false
+				stop
